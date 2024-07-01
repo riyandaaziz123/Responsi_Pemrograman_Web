@@ -6,9 +6,6 @@
     <AboutSection />
   </div>
   <div>
-    <ProjectsSection/>
-  </div>
-  <div>
     <ContactSection/>
   </div>
 </template>
