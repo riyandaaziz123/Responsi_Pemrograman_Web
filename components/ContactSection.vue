@@ -1,7 +1,7 @@
 <template>
   <section class="contact">
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Contact Me</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
@@ -15,7 +15,7 @@
     <!-- End #contact -->
     <div >
       <h2 class="footer">Contact Me</h2>
-      <p class="gmail">Email: your-email@example.com</p>
+      <p class="gmail">Email: riyandaazizi@example.com</p>
     </div>
     
   </section>
@@ -34,12 +34,12 @@ export default {
 
 #contact {
     padding: 50px 15px;
-    background: #DA291C;
+    background: #f5f5f5;
     text-align: center;
 
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: #000000;
         font-weight: 500;
     }
 }
@@ -56,7 +56,7 @@ export default {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: #000000;
         @include transition();
         @include placeholder {
             color: #fff;
