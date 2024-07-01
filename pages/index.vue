@@ -2,6 +2,15 @@
   <div>
     <HeroSection />
   </div>
+  <div>
+    <AboutSection />
+  </div>
+  <div>
+    <ProjectsSection/>
+  </div>
+  <div>
+    <ContactSection/>
+  </div>
 </template>
 
 <script>
