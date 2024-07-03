@@ -88,8 +88,8 @@ export default {
 
 <style scoped>
 .projects {
-  padding: 20px 0;
-  background: #e9ecef;
+  padding: 20px 0px 100px;
+  background: #fff;
   
 }
 
