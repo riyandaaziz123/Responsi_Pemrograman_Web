@@ -1,24 +1,23 @@
 <template>
-  <section class="about">
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">ABOUT</h2>
-                    <img src="assets/img/images.jpg" class="border" alt="" >
-                </div>
-                <div class="col-md-8">
-                    <p class="paragraf">
-                      My name is Riyanda Azizi, and I am an Informatics student at Amikom University Yogyakarta. I have a deep interest in UI, design and multimedia. 
-                      With a combination of technical knowledge and creativity, I strive to create intuitive and engaging user experiences through innovative and functional design.
-                      I am always eager to learn new things and develop my skills in areas I love.
-                    </p>
-                </div>
-            </div>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2 class="heading">ABOUT</h2>
+          <img src="assets/img/foto.jpeg" class="border" alt="">
         </div>
+        <div class="col-md-8">
+          <p class="paragraf">
+            My name is Riyanda Azizi, and I am an Informatics student at Amikom University Yogyakarta. I have a deep interest in UI, design, and multimedia. 
+            With a combination of technical knowledge and creativity, I strive to create intuitive and engaging user experiences through innovative and functional design.
+            I am always eager to learn new things and develop my skills in areas I love.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
+
 
 <script>
 export default {
@@ -27,29 +26,61 @@ export default {
 </script>
 
 <style scoped>
+html {
+  scroll-behavior: smooth;
+}
+
 .about {
+  margin: 10px 0 0 100px;
   padding: 50px 0;
   background: #fff;
 }
-.heading{
-  padding-left: 500px;
-  padding-bottom: 20px;
+
+.container {
   display: flex;
-  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.border{
-  
-  width: 250px; /* Atur lebar elemen */
-  height: 250px; /* Atur tinggi elemen */
+
+.heading {
+  margin-left: 450px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px; /* Atur ukuran font */
+}
+
+.border {
+  width: 200px; /* Atur lebar elemen */
+  height: 200px; /* Atur tinggi elemen */
   border: 2px solid #ccc; /* Atur ukuran dan warna border */
   border-radius: 50%; /* Membuat border menjadi bulat */
+  margin: 0 auto;
 }
-.paragraf{
-  font-size: 16px;
+
+.paragraf {
+  font-size: 18px;
   text-align: justify;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 50px;
-  padding-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+@media (max-width: 768px) {
+  .about {
+    margin: 50px 0;
+    padding: 50px 20px;
+  }
+  .heading {
+    padding-left: 0;
+    font-size: 20px; /* Sesuaikan ukuran font untuk layar kecil */
+  }
+  .paragraf {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 
 </style>

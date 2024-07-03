@@ -1,5 +1,5 @@
 <template>
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="container">
     <div class="col-md-8 col-md-offset-2">
       <div class="heading">
@@ -9,10 +9,10 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
         <div class="team-sec">
-          <div class="team-img"> <img src="assets/img/images.jpg" class="img-responsive" alt="">
+          <div class="team-img"> <img src="assets/img/hutao.png" class="img-responsive" alt="" height="225px" width="225px">
             <div class="team-desc">
-              <h5>Julia Amanda</h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h5>Poster hp one plus</h5>
+              <p>Merupakan tugas final project mata kuliah komputer grafis</p>
               <ul class="team-social-icon">
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -26,10 +26,10 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".2s">
         <div class="team-sec">
-          <div class="team-img"> <img src="assets/img/images.jpg" class="img-responsive" alt="">
+          <div class="team-img"> <img src="assets/img/ayaka.png" class="img-responsive" alt="" height="225px" width="225px">
             <div class="team-desc">
-              <h5>Merry Luis</h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h5>Poster keycaps ayaka</h5>
+              <p>Merupakan tugas final project mata kuliah komputer grafis</p>
               <ul class="team-social-icon">
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -43,10 +43,10 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
         <div class="team-sec">
-          <div class="team-img"> <img src="assets/img/images.jpg" class="img-responsive" alt="">
+          <div class="team-img"> <img src="assets/img/tica.png" class="img-responsive" alt="" height="225px" width="225px">
             <div class="team-desc">
-              <h5>Poll Astin</h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h5>Desain figma </h5>
+              <p>Desain yang dibuat untuk tugas akhir pemrograman web</p>
               <ul class="team-social-icon">
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -60,10 +60,10 @@
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".4s">
         <div class="team-sec">
-          <div class="team-img"> <img src="assets/img/images.jpg" class="img-responsive" alt="">
+          <div class="team-img"> <img src="assets/img/valo.png" class="img-responsive" alt="" height="225px" width="225px">
             <div class="team-desc">
-              <h5>Janea Syria</h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h5>Valorant gaming</h5>
+              <p>Perjalanan menuju radint apac</p>
               <ul class="team-social-icon">
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
                 <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .projects {
-  padding: 50px 0;
+  padding: 20px 0;
   background: #e9ecef;
   
 }

@@ -4,9 +4,9 @@
         <div class="navbar__container">
             <div class="navbar__logo"></div>
             <nav class="navbar__menu">
-                <a href="#home" class="navbar__link">Home</a>
+                <a href="#home-hero" class="navbar__link">Home</a>
                 <a href="#about" class="navbar__link">About</a>
-                <a href="#project" class="navbar__link">Project</a>
+                <a href="#projects" class="navbar__link">Project</a>
                 <a href="#contact" class="navbar__link">Contact</a>
             </nav>
         </div>
@@ -15,7 +15,7 @@
     <div class="home-hero__content">
       <div class="home-hero__info">
         <div class="profile">
-          <img src="assets/img/images.jpg" alt="">
+          <img src="assets/img/pp.jpeg" alt="">
         </div>
         <h1 class="heading-primary home-hero__heading-primary">
           <span class="heading-primary__main">
@@ -175,7 +175,7 @@ export default {
 }
 
 .navbar__link:hover {
-    background-color: #fff;
+    background-color: #1a1a1a;
     border-radius: 4px;
 }
 

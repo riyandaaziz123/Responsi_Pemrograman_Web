@@ -18,9 +18,9 @@
       <ul class="social-icon">
         <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"><img src="assets/img/facebook.png" class="logo" alt=""></i></a></li>
         <li class="twitter hvr-pulse"><a href="#"><i class="fa fa-twitter"><img src="assets/img/twitter.png" class="logo" alt=""></i></a></li>
-        <li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"><img src="assets/img/linkedin.png" class="logo" alt=""></i></a></li>
+        <li class="linkedin hvr-pulse"><a href="https://www.linkedin.com/in/riyanda-azizi/"><i class="fa fa-linkedin"><img src="assets/img/linkedin.png" class="logo" alt=""></i></a></li>
         <li class="youtube hvr-pulse"><a href="#"><i class="fa fa-youtube"><img src="assets/img/youtube.png" class="logo" alt=""></i></a></li>
-        <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"><img src="assets/img/instagram.png" class="logo" alt=""></i></a></li>
+        <li class="instagram hvr-pulse"><a href="https://www.instagram.com/ryand_az/"><i class="fa fa-instagram"><img src="assets/img/instagram.png" class="logo" alt=""></i></a></li>
         <li class="email hvr-pulse"><a href="#"><i class="fa fa-email"><img src="assets/img/email.png" class="logo" alt=""></i></a></li>
       </ul>
     </footer>
@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .contact {
-  padding: 50px 0;
+  padding: 0px 0; 
 }
 
 #contact {
