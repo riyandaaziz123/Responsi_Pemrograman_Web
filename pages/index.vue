@@ -1,9 +1,12 @@
 <template>
   <div>
-    <HeroSection />
+    <HeroSection/>
   </div>
   <div>
-    <AboutSection />
+    <AboutSection/>
+  </div>
+  <div>
+    <ProjectsSection/>
   </div>
   <div>
     <ContactSection/>

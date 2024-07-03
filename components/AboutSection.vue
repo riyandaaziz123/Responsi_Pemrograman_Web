@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">ABOUT</h2>
                     <img src="assets/img/images.jpg" class="border" alt="" >
                 </div>
                 <div class="col-md-8">
@@ -32,8 +32,10 @@ export default {
   background: #fff;
 }
 .heading{
-  padding-left: 50px;
+  padding-left: 500px;
   padding-bottom: 20px;
+  display: flex;
+  text-align: justify;
 }
 .border{
   
