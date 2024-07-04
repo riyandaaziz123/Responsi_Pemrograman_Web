@@ -14,7 +14,7 @@
                   <h6 class="d-flex align-items-center mb-3">My skill</h6>
                   <small>Adobe Illustrator</small>
                   <div class="progress mb-3" style="height: 5px">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
                   </div>
                   <small>Adobe Photoshop</small>
