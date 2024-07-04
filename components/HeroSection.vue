@@ -3,9 +3,13 @@
   <header class="navbar">
         <div class="navbar__container">
             <div class="navbar__logo"></div>
-            <nav class="navbar__menu">
+            <nav class="navbar navbar-expand-lg  navbar__menu">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">MY PORTOFOLIO</a>
+              </div>
                 <a href="#home-hero" class="navbar__link">Home</a>
                 <a href="#about" class="navbar__link">About</a>
+                <a href="#skill" class="navbar__link">Skill</a>
                 <a href="#projects" class="navbar__link">Project</a>
                 <a href="#contact" class="navbar__link">Contact</a>
             </nav>
@@ -176,7 +180,7 @@ export default {
 
 .navbar__link:hover {
     background-color: #1a1a1a;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 /* Responsive styles */
@@ -194,5 +198,8 @@ export default {
         width: 100%;
         text-align: center;
     }
+}
+.navbar-brand {
+  color: #fff;
 }
 </style>

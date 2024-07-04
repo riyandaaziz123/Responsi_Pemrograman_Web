@@ -1,9 +1,12 @@
 <template>
   <section class="projects" id="projects">
     <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-sm">
       <div class="heading">
         <h2>MY PROJECT</h2>
+      </div>
+      <div>
+        <p class="col-sm-12 subtittle">Below are the results of projects I have made</p>
       </div>
     </div>
     <div class="row">
@@ -98,8 +101,14 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center; 
-	padding-left: 400px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+}
+.subtittle {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
 .team-desc {
 	padding:15px 10px 15px 10px;
