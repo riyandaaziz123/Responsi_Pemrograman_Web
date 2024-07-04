@@ -32,7 +32,7 @@
                     <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
                     </div>
                   </div>
-                  <small>Front End</small>
+                  <small>HTML CSS</small>
                   <div class="progress mb-3" style="height: 5px">
                     <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
                     </div>
